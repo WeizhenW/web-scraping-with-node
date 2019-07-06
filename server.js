@@ -1,5 +1,5 @@
-const express = require('express');
-const app = express();
+// const express = require('express');
+// const app = express();
 var rp = require('request-promise');
 const $ = require('cheerio');
 
@@ -33,6 +33,6 @@ rp('https://www.indeed.com/jobs?as_and=javascript+developer&as_phr=&as_any=&as_n
     });
 
 
-app.listen(5000, () => {
-    console.log('on port 5000');
-})
+// app.listen(5000, () => {
+//     console.log('on port 5000');
+// })
